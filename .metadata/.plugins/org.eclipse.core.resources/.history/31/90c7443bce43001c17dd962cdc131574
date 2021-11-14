@@ -1,0 +1,90 @@
+package com.summon.webApp.api;
+
+import com.github.b1uec0in.josaformatter.JosaFormatter;
+
+public class TestJosa {
+		public static void main(String[] args) {
+			
+
+		JosaFormatter josaFormatter= new JosaFormatter();
+		String text = josaFormatter.format("", "");
+		String str = "#mc는 #sc를 바라봤다. 그리고 #mc가 나지막히 #sc에게 말했다.";
+		String sc = "소윤";
+		String mc = "한울";
+
+		if (str.contains("#mc이"))
+			str = str.replace("#mc이", josaFormatter.format("%s이", mc));
+		if (str.contains("#mc가"))
+			str = str.replace("#mc가", josaFormatter.format("%s이", mc));
+		if (str.contains("#mc과"))
+			str = str.replace("#mc과", josaFormatter.format("%s과", mc));
+		if (str.contains("#mc와"))
+			str = str.replace("#mc와", josaFormatter.format("%s과", mc));
+		if (str.contains("#mc을"))
+			str = str.replace("#mc을", josaFormatter.format("%s을", mc));
+		if (str.contains("#mc를"))
+			str = str.replace("#mc를", josaFormatter.format("%s을", mc));
+		if (str.contains("#mc은"))
+			str = str.replace("#mc은", josaFormatter.format("%s은", mc));
+		if (str.contains("#mc는"))
+			str = str.replace("#mc는", josaFormatter.format("%s은", mc));
+		if (str.contains("#mc으로"))
+			str = str.replace("#mc으로", josaFormatter.format("%s으로", mc));
+		if (str.contains("#mc로"))
+			str = str.replace("#mc로", josaFormatter.format("%s으로", mc));
+		if (str.contains("#mc아"))
+			str = str.replace("#mc아", josaFormatter.format("%s아", mc));
+		if (str.contains("#mc야"))
+			str = str.replace("#mc야", josaFormatter.format("%s아", mc));
+		if (str.contains("#mc이여"))
+			str = str.replace("#mc이여", josaFormatter.format("%s이여", mc));
+		if (str.contains("#mc여"))
+			str = str.replace("#mc여", josaFormatter.format("%s여", mc));
+		if (str.contains("#mc이라"))
+			str = str.replace("#mc이라", josaFormatter.format("%s이라", mc));
+		if (str.contains("#mc라"))
+			str = str.replace("#mc라", josaFormatter.format("%s라", mc));
+		if (str.contains("#mc"))
+			str = str.replace("#mc", mc);
+		
+		if (str.contains("#sc이"))
+			str = str.replace("#sc이", josaFormatter.format("%s이", sc));
+		if (str.contains("#sc가"))
+			str = str.replace("#sc가", josaFormatter.format("%s이", sc));
+		if (str.contains("#sc과"))
+			str = str.replace("#sc과", josaFormatter.format("%s과", sc));
+		if (str.contains("#sc와"))
+			str = str.replace("#sc와", josaFormatter.format("%s과", sc));
+		if (str.contains("#sc을"))
+			str = str.replace("#sc을", josaFormatter.format("%s을", sc));
+		if (str.contains("#sc를"))
+			str = str.replace("#sc를", josaFormatter.format("%s을", sc));
+		if (str.contains("#mc은"))
+			str = str.replace("#sc은", josaFormatter.format("%s은", sc));
+		if (str.contains("#mc는"))
+			str = str.replace("#sc는", josaFormatter.format("%s은", sc));
+		if (str.contains("#sc으로"))
+			str = str.replace("#sc으로", josaFormatter.format("%s으로", sc));
+		if (str.contains("#sc로"))
+			str = str.replace("#sc로", josaFormatter.format("%s으로", sc));
+		if (str.contains("#mc아"))
+			str = str.replace("#sc아", josaFormatter.format("%s아", sc));
+		if (str.contains("#sc야"))
+			str = str.replace("#sc야", josaFormatter.format("%s아", sc));
+		if (str.contains("#sc이여"))
+			str = str.replace("#sc이여", josaFormatter.format("%s이여", sc));
+		if (str.contains("#sc여"))
+			str = str.replace("#sc여", josaFormatter.format("%s여", sc));
+		if (str.contains("#sc이라"))
+			str = str.replace("#sc이라", josaFormatter.format("%s이라", sc));
+		if (str.contains("#sc라"))
+			str = str.replace("#sc라", josaFormatter.format("%s라", sc));
+		if (str.contains("#sc"))
+			str = str.replace("#sc", sc);
+
+
+
+		return str;
+
+		}
+}

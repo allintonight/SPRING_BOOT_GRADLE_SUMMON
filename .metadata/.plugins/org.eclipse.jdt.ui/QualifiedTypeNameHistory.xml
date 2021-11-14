@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.summon.webApp.model.User"/>
+    <fullyQualifiedTypeName name="com.summon.webApp.model.Board"/>
+    <fullyQualifiedTypeName name="com.summon.webApp.model.Reply"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.github.b1uec0in.josaformatter.JosaFormatter"/>
+</qualifiedTypeNameHistroy>

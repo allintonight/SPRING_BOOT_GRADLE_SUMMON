@@ -1,0 +1,5 @@
+package com.summon.webApp.dto;
+
+public class ResponseDto {
+
+}

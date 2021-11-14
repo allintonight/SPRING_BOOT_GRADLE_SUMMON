@@ -1,0 +1,5 @@
+package com.summon.webApp.model;
+
+public class Board {
+
+}

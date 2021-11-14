@@ -1,0 +1,10 @@
+package com.summon.webApp.api;
+
+import com.github.b1uec0in.josaformatter.JosaFormatter;
+
+public class TestJosa {
+		
+		JosaFormatter josaFormatter= new JosaFormatter();
+		String text = josaFormatter.format("%s을awdw 구매하시겠습니까?", "Office");
+		System.out.println(text);
+}

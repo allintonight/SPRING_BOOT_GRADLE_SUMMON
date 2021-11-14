@@ -1,0 +1,29 @@
+package com.summon.webPage.model;
+
+import java.sql.Timestamp;
+
+import javax.persistence.Entity;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+
+@Data
+@Entity
+public class User {
+	
+	private int id;
+	
+	private String email;
+	
+	private String password;
+	
+	private String profile_image;
+	
+	private String adult_confirm;
+	
+	private Timestamp create_time;
+
+}

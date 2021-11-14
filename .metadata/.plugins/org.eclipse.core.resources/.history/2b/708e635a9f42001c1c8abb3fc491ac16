@@ -1,0 +1,5 @@
+package com.summon.webApp.handler;
+
+public class GlobalExeptionHandler {
+
+}
